@@ -1,0 +1,146 @@
+.home_container h1,
+.home_container .name_text {
+    color: #fff;
+}
+
+.wave {
+    -webkit-animation-duration: 2.1s;
+    animation-duration: 2.1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: wave-animation;
+    animation-name: wave-animation;
+    display: inline-block;
+    -webkit-transform-origin: 70% 70%;
+    transform-origin: 70% 70%;
+}
+
+@-webkit-keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.name_text {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.text_type {
+    font-family: monospace;
+    font-size: 1.25rem;
+    display: inline;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#typed {
+    font-weight: bold;
+    color: #00bdff;
+}
+
+.cursor {
+    display: inline-block;
+    background-color: #b0ff95;
+    animation: blinker 800ms infinite;
+}
+
+.cursor.typing-true {
+    animation: none;
+}
+
+@keyframes blinker {
+    0% {
+        background-color: #00aeff;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: #00aeff;
+    }
+}
+
+.header_text {
+    margin-left: 40px;
+}
+
+.text_type {
+    color: #fff;
+}
+
+.profile_image {
+    height: 20%;
+    width: 30%;
+}
+
+.profile_image .profile-img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}.introduction{
+    margin-top: 60px;
+}
+
+.introduction .introduction_text {
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    text-align: center;
+    color: #fff;
+}
+
+.introduction .introduction_text span {
+    color: #00aeff;
+}
+
+.introduction_para {
+    color: #fff;
+    line-height: 2;
+    font-weight: 600;
+    padding: 0 20px;
+}
+
+.introduction_para span {
+    color: #00aeff;
+}
+
+@media (max-width: 768px) {
+    .hero_content {
+        display: inline-block;
+    }
+
+    .profile_image {
+        margin: auto;
+        width: 100%;
+    }
+
+}
