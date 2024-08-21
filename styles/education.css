@@ -1,4 +1,6 @@
-.education_head {
+.education_container{
+    margin-top: 40px;
+}.education_head {
     text-align: center;
     color: #fff;
     border-bottom: 4px solid #00aeff;

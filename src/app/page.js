@@ -3,6 +3,12 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import '../../styles/home.css';
 import profilePic from "../../assets/profilebg.png"
+import Education from './education/page'
+import SocialCount from './socialcount/page';
+import Skills from './skills/page';
+import Projects from './projects/page';
+import MobileApplication from './mobileapplication/page';
+import WebProjects from './webproject/page';
 
 export default function HomePage() {
   const [typedText, setTypedText] = useState('');
@@ -62,11 +68,13 @@ export default function HomePage() {
         </div>
       </div>
 
+      <SocialCount />
+
       <div className='introduction'>
         <h2 className='introduction_text'>let me <span>introduce</span> myself</h2>
         <p className='introduction_para'>With <span>1.5+</span> years of experience in frontend and web development,
           I specialize in crafting dynamic and responsive user interfaces using <span>React,
-          Angular, Next.js and EJS</span>.
+            Angular, Next.js and EJS</span>.
           My expertise extends to backend technologies,
           including <span>Node.js, Express, and Mongoose,</span>
           allowing me to build <span>full-stack</span> applications
@@ -77,6 +85,12 @@ export default function HomePage() {
           and am dedicated to staying updated with the latest industry trends
           and <span>technologies</span>.</p>
       </div>
+      <Skills />
+      <Education />
+      <Projects />
+      <MobileApplication />
+      <WebProjects />
+
     </div>
   );
 }

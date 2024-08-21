@@ -1,6 +1,6 @@
 import './globals.css';
 import NavBar from './NavBar';
-import Education from './education/page'
+
 
 export const metadata = {
   title: 'Girija Portfolio',
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <body>
         <NavBar />
         <main>{children}</main>
-        <Education />
+        
       </body>
     </html>
   );

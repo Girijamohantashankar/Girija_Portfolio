@@ -1,0 +1,47 @@
+.social_img .social_font_icon {
+    font-size: 60px;
+}
+
+.social_card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.social_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.social_text h2,
+.social_text h1 {
+    margin: 0;
+}
+
+.social_text h2 {
+    color: #fff;
+    font-size: 22px;
+
+}
+
+.social_font_icon {
+    color: #03a9f4;
+}
+
+.social_text h1 {
+    color: #2196f3;
+}
+
+.social_count_container {
+    margin: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .social_cards {
+        justify-content: left;
+        gap: 40px;
+    }
+}
