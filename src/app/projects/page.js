@@ -8,6 +8,11 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
+import MobileApplication from '../mobileapplication/page';
+import WebProjects from '../webproject/page';
+import CompanyTask from '../companytask/page';
+import LanguageProject from '../languageproject/page';
+
 
 
 const projects = [
@@ -34,25 +39,25 @@ const projects = [
     demo: 'https://deepchat-app.onrender.com/'
   },
   {
-    images: ['/images/project-4.png', '/images/project-41.png', '/images/project-42.png','/images/project-43.png','/images/project-44.png'],
+    images: ['/images/project-4.png', '/images/project-41.png', '/images/project-42.png', '/images/project-43.png', '/images/project-44.png'],
     title: 'Adventure Trip',
     summary: 'Adventure Trip is a dynamic travel platform built using React, Node.js, MongoDB, and Firebase, with SCSS for styling. This platform allows users to explore and book various adventure trips around the world. With Firebase integrated for user authentication and real-time data synchronization, the app ensures secure and seamless user experiences. SCSS is used to provide a visually appealing, responsive design, while Node.js and MongoDB handle backend logic and data management. Adventure Trip offers a one-stop solution for travel enthusiasts looking for thrilling adventure experiences.',
     github: 'https://github.com/Girijamohantashankar/Adventuretrip.git',
     demo: 'https://adventuretrip.onrender.com/'
   },
   {
-    images: ['/images/project-5.png', '/images/project-51.png', '/images/project-52.png','/images/project-53.png','/images/project-54.png'],
+    images: ['/images/project-5.png', '/images/project-51.png', '/images/project-52.png', '/images/project-53.png', '/images/project-54.png'],
     title: 'ShortPost',
     summary: 'Shortpost is a modern blogging platform developed with React, Node.js, MongoDB, and Cloudinary. The app enables users to create, edit, and share short-form content effortlessly. Cloudinary is utilized for managing and optimizing media assets, ensuring fast and reliable image and video handling. The platform leverages MongoDB for robust data storage and retrieval, Node.js for backend processing, and React for a dynamic and responsive user interface. Shortpost provides a seamless experience for content creators and readers alike, with a focus on simplicity and efficiency.',
     github: 'https://github.com/Girijamohantashankar/ShortPost.git',
     demo: 'https://shortpost.onrender.com/'
   },
   {
-    images: ['/images/project-6.png', '/images/project-61.png', '/images/project-62.png','/images/project-63.png','/images/project-64.png','/images/project-65.png'],
-    title: 'DeepChat',
-    summary: 'Interview Preparation is a comprehensive platform designed to help users prepare for job interviews. Built using React, Node.js, MongoDB, and Bootstrap, the app offers a range of features including practice questions, mock interviews, and performance tracking. Bootstrap is used to create a responsive and user-friendly interface, enhancing the overall user experience. MongoDB handles data management, while Node.js powers the backend functionality. The platform aims to provide users with the tools and resources needed to excel in their interviews, offering a structured and supportive preparation environment.',
-    github: 'https://github.com/Girijamohantashankar/InterviewPreparation.git',
-    demo: 'https://interviewpreparation.onrender.com/'
+    images: ['/images/project-7.png', '/images/project-71.png', '/images/project-72.png', '/images/project-73.png'],
+    title: 'JS Master',
+    summary: 'Currently developing JSMaster, a full-stack web application designed to offer a comprehensive JavaScript problem-solving platform. The frontend is built with React to provide an interactive and responsive user interface, while Node.js handles the backend operations, ensuring efficient server-side logic. Mongoose is utilized for managing MongoDB databases, enabling effective data storage and retrieval. The application aims to feature a range of JavaScript problems, user authentication, and performance tracking, with ongoing development focused on enhancing functionality and user experience.',
+    github: 'https://github.com/Girijamohantashankar/jsmaster.git',
+    demo: ''
   },
 ];
 
@@ -124,6 +129,11 @@ export default function ProjectsPage() {
           ))}
         </div>
       </div>
+
+      <MobileApplication />
+      <WebProjects />
+      <CompanyTask />
+      <LanguageProject />
     </div>
   );
 }

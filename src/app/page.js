@@ -7,8 +7,6 @@ import Education from './education/page'
 import SocialCount from './socialcount/page';
 import Skills from './skills/page';
 import Projects from './projects/page';
-import MobileApplication from './mobileapplication/page';
-import WebProjects from './webproject/page';
 
 export default function HomePage() {
   const [typedText, setTypedText] = useState('');
@@ -88,8 +86,6 @@ export default function HomePage() {
       <Skills />
       <Education />
       <Projects />
-      <MobileApplication />
-      <WebProjects />
 
     </div>
   );
