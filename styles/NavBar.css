@@ -80,7 +80,9 @@
 .nav-links.open {
   animation: slideIn 0.5s forwards;
 }
-
+.nav_icon{
+  padding-right: 10px;
+}
 @keyframes slideIn {
   from {
     transform: translateY(-20px);

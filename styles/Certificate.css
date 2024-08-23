@@ -1,91 +1,123 @@
 .Certificate_container {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
-
+.certificate_cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
 .Certificate_container .card {
-    position: relative;
-    width: 400px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.certificate_cards {
+  margin-top: 40px;
 }
 
 .Certificate_container .card-image {
-    width: 85%;
-    height: auto;
-    transition: opacity 0.5s ease;
-    animation: color-glow 3s infinite;
-    object-fit: cover;
+  width: 85%;
+  height: auto;
+  transition: opacity 0.5s ease;
+  animation: color-glow 3s infinite;
+  object-fit: cover;
 }
 
-
 .Certificate_container .card-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  text-align: center;
 }
 
 .Certificate_container .card-title {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+  font-size: 1em;
+  margin-bottom: 10px;
 }
 
 .Certificate_container .card-icons {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .Certificate_container .card:hover .card-image {
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
 .Certificate_container .card:hover .card-overlay {
-    opacity: 1;
+  opacity: 1;
 }
 
-
 @keyframes color-glow {
-    0% {
-        box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
-    }
+  0% {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+  }
 
-    14% {
-        box-shadow: 0 0 20px rgba(255, 165, 0, 0.8);
-    }
+  14% {
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.8);
+  }
 
-    28% {
-        box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
-    }
+  28% {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+  }
 
-    42% {
-        box-shadow: 0 0 20px rgba(0, 128, 0, 0.8);
-    }
+  42% {
+    box-shadow: 0 0 20px rgba(0, 128, 0, 0.8);
+  }
 
-    57% {
-        box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
-    }
+  57% {
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
+  }
 
-    71% {
-        box-shadow: 0 0 20px rgba(75, 0, 130, 0.8);
-    }
+  71% {
+    box-shadow: 0 0 20px rgba(75, 0, 130, 0.8);
+  }
 
-    85% {
-        box-shadow: 0 0 20px rgba(238, 130, 238, 0.8);
-    }
+  85% {
+    box-shadow: 0 0 20px rgba(238, 130, 238, 0.8);
+  }
 
-    100% {
-        box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
-    }
+  100% {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+  }
+}
+.card-icons a {
+  font-size: 15px;
+  color: #fff;
+}
+.card-icons a span {
+  padding-left: 7px;
+}
+.card-icons a:hover {
+  color: #007bff;
+}
+.Certificate_container .card-overlay h1 {
+  color: #007bff;
+  margin: 0;
+  font-size: 18px;
+}
+.Certificate_container .cerficate_heading {
+  text-transform: uppercase;
+}
+.Certificate_container .cerficate_heading,
+.certificate_para {
+  color: #fff;
+}
+.Certificate_container .cerficate_heading span,
+.certificate_para span {
+  color: #007bff;
 }
