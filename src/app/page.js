@@ -7,6 +7,8 @@ import Education from './education/page'
 import SocialCount from './socialcount/page';
 import Skills from './skills/page';
 import Projects from './projects/page';
+import WorkExperience from './workexperience/page';
+import Certificate from './certificate/page';
 
 export default function HomePage() {
   const [typedText, setTypedText] = useState('');
@@ -83,9 +85,11 @@ export default function HomePage() {
           and am dedicated to staying updated with the latest industry trends
           and <span>technologies</span>.</p>
       </div>
+      <WorkExperience />
       <Skills />
       <Education />
       <Projects />
+      <Certificate />
 
     </div>
   );

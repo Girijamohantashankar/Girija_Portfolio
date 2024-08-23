@@ -122,3 +122,10 @@
        
     }
 }
+@media (max-width: 768px) {
+   .skill_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+}

@@ -1,0 +1,91 @@
+.Certificate_container {
+    text-align: center;
+    padding: 20px;
+}
+
+.Certificate_container .card {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Certificate_container .card-image {
+    width: 85%;
+    height: auto;
+    transition: opacity 0.5s ease;
+    animation: color-glow 3s infinite;
+    object-fit: cover;
+}
+
+
+.Certificate_container .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    text-align: center;
+}
+
+.Certificate_container .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.Certificate_container .card-icons {
+    font-size: 2em;
+}
+
+.Certificate_container .card:hover .card-image {
+    opacity: 0.3;
+}
+
+.Certificate_container .card:hover .card-overlay {
+    opacity: 1;
+}
+
+
+@keyframes color-glow {
+    0% {
+        box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+    }
+
+    14% {
+        box-shadow: 0 0 20px rgba(255, 165, 0, 0.8);
+    }
+
+    28% {
+        box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+    }
+
+    42% {
+        box-shadow: 0 0 20px rgba(0, 128, 0, 0.8);
+    }
+
+    57% {
+        box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
+    }
+
+    71% {
+        box-shadow: 0 0 20px rgba(75, 0, 130, 0.8);
+    }
+
+    85% {
+        box-shadow: 0 0 20px rgba(238, 130, 238, 0.8);
+    }
+
+    100% {
+        box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+    }
+}
