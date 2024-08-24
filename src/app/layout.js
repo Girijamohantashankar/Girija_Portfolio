@@ -1,24 +1,37 @@
+'use client'; 
+
 import './globals.css';
 import NavBar from './NavBar';
-
-
-export const metadata = {
-  title: 'Girija Portfolio',
-  description: 'Welcome to my portfolio website',
-};
+import Customloader from './customloader';
+import { useState, useEffect } from 'react';
 
 export default function RootLayout({ children }) {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); 
+
+    return () => clearTimeout(timer); 
+  }, []);
+
   return (
     <html lang="en">
       <head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+        <title>Girija Portfolio</title>
+        <meta name="description" content="Welcome to my portfolio website" />
         <link rel="icon" href="/assets/profile.png" />
       </head>
       <body>
-        <NavBar />
-        <main>{children}</main>
-        
+        {isLoading ? (
+          <Customloader />  
+        ) : (
+          <>
+            <NavBar />
+            <main>{children}</main>
+          </>
+        )}
       </body>
     </html>
   );

@@ -1,5 +1,5 @@
-import { connectToDatabase } from "../lib/mongodb";
-import Contact from "../models/Contact";
+import { connectToDatabase } from "../../lib/mongodb";
+import Contact from "../../models/Contact";
 import nodemailer from "nodemailer";
 
 export default async function handler(req, res) {

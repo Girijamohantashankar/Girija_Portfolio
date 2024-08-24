@@ -16,6 +16,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faTimes } from "@fortawesome/free-solid-svg-icons";
 import profile from "../../assets/profile.png";
 
+
 export default function HomePage() {
   const [typedText, setTypedText] = useState("");
   const [isTyping, setIsTyping] = useState(true);
@@ -64,6 +65,11 @@ export default function HomePage() {
     return () => clearTimeout(timeout);
   }, [charIndex, isTyping, totypeIndex]);
 
+
+
+
+
+
   const [showTooltip, setShowTooltip] = useState(false);
 
   useEffect(() => {
@@ -80,6 +86,7 @@ export default function HomePage() {
   const handleTooltipClick = () => {
     window.location.href = "mailto:girijashankarmohanta11@gmail.com?subject=Contact&body=Hi%20Girija,";
   };
+ 
 
   return (
     <div className="home_container">
