@@ -9,6 +9,8 @@ import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'; 
 import { faProjectDiagram } from '@fortawesome/free-solid-svg-icons'; 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'; 
+// import Image from "next/image";
+// import profile from "../../assets/profile.png";
 
 
 export default function NavBar() {
@@ -25,6 +27,7 @@ export default function NavBar() {
         <div className="logo">
           <Link href="/" className="logo_text">
           <FontAwesomeIcon icon={faUser} className='nav_icon'/>
+          {/* <Image src={profile} alt="profile pic" className="profile_nav" /> */}
             Girija Shankar
           </Link>
         </div>
