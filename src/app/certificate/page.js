@@ -108,7 +108,7 @@ export default function CertificatePage() {
           </div>
         </div>
         <div className="card">
-          <Image src={certificate5} alt="certificate" className="card-image" />
+          <Image src={certificate6} alt="certificate" className="card-image" />
           <div className="card-overlay">
             <h1>freeCodeCamp</h1>
             <h4 className="card-title">Responsive Web Design</h4>
