@@ -1,0 +1,17 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/certificate/page": "app/certificate/page.js",
+  "/companytask/page": "app/companytask/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/education/page": "app/education/page.js",
+  "/languageproject/page": "app/languageproject/page.js",
+  "/page": "app/page.js",
+  "/mobileapplication/page": "app/mobileapplication/page.js",
+  "/projects/page": "app/projects/page.js",
+  "/skills/page": "app/skills/page.js",
+  "/socialcount/page": "app/socialcount/page.js",
+  "/workexperience/page": "app/workexperience/page.js",
+  "/webproject/page": "app/webproject/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}
