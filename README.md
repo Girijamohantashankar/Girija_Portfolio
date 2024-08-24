@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Girija Shankar Mohanta's Portfolio
 
-## Getting Started
+Welcome to my personal portfolio website! This project showcases my work and experience as a frontend developer, UI/UX designer, and web developer.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This portfolio highlights my skills and achievements in web development. It includes sections such as:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Home:** An introduction to who I am and what I do.
+- **Work Experience:** Details of my professional background.
+- **Skills:** A list of technologies and tools I am proficient in.
+- **Education:** Information about my academic background.
+- **Projects:** Examples of projects I've worked on.
+- **Certificates:** Certifications I have earned.
+- **About:** A brief overview of my career and interests.
+- **Contact:** How to get in touch with me.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Responsive Design:** The portfolio is designed to be accessible on both desktop and mobile devices.
+- **Dynamic Typing Effect:** A typing effect that cycles through different roles and specializations.
+- **Interactive Tooltip:** A tooltip that appears after a brief delay, providing quick contact information.
+- **Loader Animation:** A custom loader that is displayed while the page content is loading.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend:** React, Next.js, CSS, and various frontend libraries.
+- **Backend:** Node.js (for API routes, if needed).
+- **Database:** MongoDB (if applicable).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To set up and run this project locally, follow these steps:
 
-## Deploy on Vercel
+1. **Clone the repository:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### Key Points:
+
+1. **Thumbnail Image:**
+   - Place your thumbnail image in the `public/assets/` directory of your project.
+   - Update the path in the `![Portfolio Thumbnail](public/assets/thumbnail.png)` line accordingly.
+
+2. **Additional Information:**
+   - Modify any project-specific details such as technologies used, installation steps, and deployment instructions.
+
+3. **Repository URL:**
+   - Update the `git clone` URL to point to your actual GitHub repository.
+
+Feel free to adjust the content as needed to fit your project and preferences!
