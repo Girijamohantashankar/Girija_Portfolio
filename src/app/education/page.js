@@ -165,9 +165,9 @@ export default function EducationPage() {
                         <div className="thid-card"></div>
                     </div>
                     <div className='card_content_text'>
-                        <h2 className="card_title"><FontAwesomeIcon icon={faGraduationCap} className='education_icon' /> Master of <span>Computer</span> Applications <span>(MCA)</span></h2>
-                        <h3 className="institution-name"><FontAwesomeIcon icon={faUniversity} className='education_icon' /> Lovely Professional University</h3>
-                        <p className="year"><FontAwesomeIcon icon={faCalendarAlt} className='education_icon' />Graduated: <span>2023</span></p>
+                        <h2 className="card_title"><FontAwesomeIcon icon={faGraduationCap} className='education_icon' /> Hi<span>gh Sc</span>hool  <span>(10th)</span></h2>
+                        <h3 className="institution-name"><FontAwesomeIcon icon={faUniversity} className='education_icon' /> Raghunath High School</h3>
+                        <p className="year"><FontAwesomeIcon icon={faCalendarAlt} className='education_icon' />Matric: <span>2016</span></p>
                         <p className='para_education'>
                             Raghunath High School, Raikama is a prominent educational institution located in Raikama,
                             Odisha. Dedicated to serving the local community,
