@@ -2,6 +2,9 @@
 
 Welcome to my personal portfolio website! This project showcases my work and experience as a frontend developer, UI/UX designer, and web developer.
 
+<img src="assets/thumbnail.png" alt="Top Image" style="max-width: 100%; height: auto;">
+
+
 ## Project Overview
 
 This portfolio highlights my skills and achievements in web development. It includes sections such as:
