@@ -1,8 +1,0 @@
-{
-  "/lib/mongodb": "pages/lib/mongodb.js",
-  "/_app": "pages/_app.js",
-  "/models/Contact": "pages/models/Contact.js",
-  "/api/contact": "pages/api/contact.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
-}
