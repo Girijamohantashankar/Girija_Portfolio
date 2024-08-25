@@ -188,11 +188,13 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   opacity: 1;
   visibility: visible;
+ 
+  animation: slideIn 0.5s ease, fadeIn 0.5s ease;
+  z-index: 5;
+}.tooltip_content{
   display: flex;
   align-items: center;
   gap: 10px;
-  animation: slideIn 0.5s ease, fadeIn 0.5s ease;
-  z-index: 5;
 }
 
 .tooltip-image {

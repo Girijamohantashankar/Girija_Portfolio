@@ -16,7 +16,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faTimes } from "@fortawesome/free-solid-svg-icons";
 import profile from "../../assets/profile.png";
 
-
 export default function HomePage() {
   const [typedText, setTypedText] = useState("");
   const [isTyping, setIsTyping] = useState(true);
@@ -65,11 +64,6 @@ export default function HomePage() {
     return () => clearTimeout(timeout);
   }, [charIndex, isTyping, totypeIndex]);
 
-
-
-
-
-
   const [showTooltip, setShowTooltip] = useState(false);
 
   useEffect(() => {
@@ -84,9 +78,9 @@ export default function HomePage() {
     setShowTooltip(false);
   };
   const handleTooltipClick = () => {
-    window.location.href = "mailto:girijashankarmohanta11@gmail.com?subject=Contact&body=Hi%20Girija,";
+    window.location.href =
+      "mailto:girijashankarmohanta11@gmail.com?subject=Contact&body=Hi%20Girija,";
   };
- 
 
   return (
     <div className="home_container">
@@ -141,9 +135,15 @@ export default function HomePage() {
           <FontAwesomeIcon icon={faEnvelope} className="message_home" />
         </a>
         {showTooltip && (
-          <div className="tooltip" onClick={handleTooltipClick}>
-            <Image src={profile} alt="profile pic" className="tooltip-image" />
-            <p className="tooltip-text">Get in touch</p>
+          <div className="tooltip">
+            <div className="tooltip_content" onClick={handleTooltipClick}>
+              <Image
+                src={profile}
+                alt="profile pic"
+                className="tooltip-image"
+              />
+              <p className="tooltip-text">Get in touch</p>
+            </div>
             <button className="tooltip-close" onClick={handleClose}>
               <FontAwesomeIcon icon={faTimes} />
             </button>
