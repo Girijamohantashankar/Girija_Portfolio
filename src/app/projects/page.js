@@ -17,6 +17,13 @@ import LanguageProject from '../languageproject/page';
 
 const projects = [
   {
+    images: ['/images/1.png', '/images/2.png', '/images/3.png', '/images/4.png','/images/5.png'],
+    title: 'My Portfolio(Next js)',
+    summary: 'Girija Portfolio is a personal portfolio website built with Next.js and MongoDB, showcasing my projects, skills, and professional experience. The website features an elegant design with smooth animations and dynamic content, providing an engaging user experience. From frontend development to backend integration, the portfolio highlights my expertise in modern web technologies. It includes sections like Projects, Skills, Work Experience, and Certificates to give a comprehensive overview of my professional journey. Hosted on Vercel, the website is optimized for performance and SEO, making it easily accessible and fast.',
+    github: 'https://github.com/Girijamohantashankar/Girija_portfolio.git',
+    demo: 'https://girija-portfolio.vercel.app/'
+  },
+  {
     images: ['/images/project-1.png', '/images/project-11.png', '/images/project-12.png', '/images/project-13.png'],
     title: 'Jobupdate360',
     summary: 'JobUpdate360 is a full-stack web application built with React, Node.js, and MongoDB that provides users with a comprehensive platform to post, manage, and search for jobs. The project streamlines the job-hunting process by allowing recruiters to post job listings and candidates to apply directly through the platform. With features like job filtering, application tracking, and user authentication, JobUpdate360 offers a seamless experience for both recruiters and job seekers. The backend is powered by Node.js and MongoDB, ensuring efficient data management and a robust API for handling job-related operations.',
