@@ -17,6 +17,13 @@ import LanguageProject from '../languageproject/page';
 
 const projects = [
   {
+    images: ['/images/jsmaster1.png', '/images/jsmaster2.png', '/images/jsmaster3.png', '/images/jsmaster4.png','/images/jsmaster5.png'],
+    title: 'JS Master(Next js)',
+    summary: 'The JS Master project is a robust web application designed to enhance user interaction and data management through a seamless interface. At its core, the project features comprehensive user authentication, including secure login, registration, and password reset functionalities. Users can manage their content through a personalized dashboard, which includes tools for creating and editing posts, and uploading images. The application leverages advanced data visualization techniques, such as charts and progress indicators, to provide users with clear insights into their activities and achievements. Built using React and Next.js, the project ensures a responsive and mobile-friendly design, while Firebase handles authentication and storage needs. Deployed on Vercel, the application emphasizes scalability, maintainability, and security, addressing challenges such as client-server rendering discrepancies and robust error handling. Overall, the JS Master project aims to deliver an intuitive and secure platform for managing user content and tracking progress efficiently.',
+    github: 'https://github.com/Girijamohantashankar/js-master.git',
+    demo: 'https://js-masters.vercel.app/'
+  },
+  {
     images: ['/images/1.png', '/images/2.png', '/images/3.png', '/images/4.png','/images/5.png'],
     title: 'My Portfolio(Next js)',
     summary: 'Girija Portfolio is a personal portfolio website built with Next.js and MongoDB, showcasing my projects, skills, and professional experience. The website features an elegant design with smooth animations and dynamic content, providing an engaging user experience. From frontend development to backend integration, the portfolio highlights my expertise in modern web technologies. It includes sections like Projects, Skills, Work Experience, and Certificates to give a comprehensive overview of my professional journey. Hosted on Vercel, the website is optimized for performance and SEO, making it easily accessible and fast.',
