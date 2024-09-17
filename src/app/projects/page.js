@@ -17,6 +17,13 @@ import LanguageProject from '../languageproject/page';
 
 const projects = [
   {
+    images: ['/images/qr1.png', '/images/qr2.png', '/images/qr3.png'],
+    title: 'Qr Code Generator(Vue js)',
+    summary: 'I have developed a QR code generator using Vue.js, where users can input a URL and instantly generate a corresponding QR code. The application is simple, user-friendly, and perfect for those who want to quickly create QR codes for websites, links, or any online resources. Built with a modern and responsive UI, it ensures a seamless experience across devices. This project showcases the power of Vue.js for building interactive and dynamic web applications.',
+    github: 'https://github.com/Girijamohantashankar/QR-Code-Generator.git',
+    demo: 'https://girija-qr.netlify.app/'
+  },
+  {
     images: ['/images/jsmaster1.png', '/images/jsmaster2.png', '/images/jsmaster3.png', '/images/jsmaster4.png','/images/jsmaster5.png'],
     title: 'JS Master(Next js)',
     summary: 'The JS Master project is a robust web application designed to enhance user interaction and data management through a seamless interface. At its core, the project features comprehensive user authentication, including secure login, registration, and password reset functionalities. Users can manage their content through a personalized dashboard, which includes tools for creating and editing posts, and uploading images. The application leverages advanced data visualization techniques, such as charts and progress indicators, to provide users with clear insights into their activities and achievements. Built using React and Next.js, the project ensures a responsive and mobile-friendly design, while Firebase handles authentication and storage needs. Deployed on Vercel, the application emphasizes scalability, maintainability, and security, addressing challenges such as client-server rendering discrepancies and robust error handling. Overall, the JS Master project aims to deliver an intuitive and secure platform for managing user content and tracking progress efficiently.',
