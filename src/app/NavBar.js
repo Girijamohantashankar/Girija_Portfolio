@@ -9,6 +9,7 @@ import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'; 
 import { faProjectDiagram } from '@fortawesome/free-solid-svg-icons'; 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'; 
+import { faCogs } from '@fortawesome/free-solid-svg-icons'; 
 // import Image from "next/image";
 // import profile from "../../assets/profile.png";
 
@@ -47,17 +48,25 @@ export default function NavBar() {
           </Link>
         </li>
         <li>
-          <Link href="/about" className={pathname === '/about' ? 'active' : ''}>
-          <FontAwesomeIcon icon={faInfoCircle} className='nav_icon'/>
-            About
-          </Link>
-        </li>
-        <li>
           <Link href="/projects" className={pathname === '/projects' ? 'active' : ''}>
           <FontAwesomeIcon icon={faProjectDiagram} className='nav_icon'/>
             Projects
           </Link>
         </li>
+        <li>
+          <Link href="/Services" className={pathname === '/Services' ? 'active' : ''}>
+            <FontAwesomeIcon icon={faCogs} className='nav_icon' />
+            Services
+          </Link>
+        </li>
+
+        <li>
+          <Link href="/about" className={pathname === '/about' ? 'active' : ''}>
+          <FontAwesomeIcon icon={faInfoCircle} className='nav_icon'/>
+            About
+          </Link>
+        </li>
+        
         <li>
           <Link href="/contact" className={pathname === '/contact' ? 'active' : ''}>
           <FontAwesomeIcon icon={faEnvelope} className='nav_icon'/>

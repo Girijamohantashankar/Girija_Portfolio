@@ -25,6 +25,19 @@ const projects = [
   },
   {
     images: [
+      "/images/web-1.jpg",
+      "/images/web-1.jpg",
+      "/images/web-1.jpg",
+      "/images/web-1.jpg",
+    ],
+    title: "JS Complier",
+    summary:
+      "A lightweight and efficient JavaScript compiler built entirely using JavaScript. This tool allows users to write, execute, and debug JavaScript code directly within the browser, providing real-time output and error feedback. It supports a clean and intuitive interface for beginners and experienced developers to experiment with JavaScript code without needing any external setup or environment. Ideal for quick prototyping, learning, and testing JavaScript snippets on the go.",
+    github: "https://github.com/Girijamohantashankar/jscompiler.git",
+    demo: "https://js-compile.netlify.app/",
+  },
+  {
+    images: [
       "/images/web-2.png",
       "/images/web-21.png",
       "/images/web-23.png",
