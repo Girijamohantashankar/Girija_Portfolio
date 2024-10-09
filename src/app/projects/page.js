@@ -49,7 +49,7 @@ const projects = [
     title: 'Pocket Saving',
     summary: 'PacketSaving is a full-stack web application designed to help users manage and optimize their finances. Built using React, Node.js, and MongoDB, this platform offers various tools and features that allow users to track expenses, set savings goals, and monitor their financial progress. With secure user authentication and a responsive interface, users can easily input their financial data, view reports, and gain insights into their spending habits. The backend, developed with Node.js and MongoDB, ensures that all financial data is stored securely and efficiently, making PacketSaving a reliable solution for personal financial management.',
     github: 'https://github.com/Girijamohantashankar/PocketSaving-App.git',
-    demo: 'https://pocketsaving.onrender.com/'
+    // demo: 'https://pocketsaving.onrender.com/'
   },
 
   {
