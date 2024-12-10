@@ -41,7 +41,7 @@ export default function SocialPage() {
             <div className='social_cards'>
                 <div className='social_card'>
                     <div className='social_img'>
-                        <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Girijamohantashankar" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithub} className='social_font_icon' />
                         </a>
                     </div>
@@ -53,7 +53,7 @@ export default function SocialPage() {
 
                 <div className='social_card'>
                     <div className='social_img'>
-                        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/girijashankarmohanta" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faLinkedin} className='social_font_icon' />
                         </a>
                     </div>
@@ -65,7 +65,7 @@ export default function SocialPage() {
 
                 <div className='social_card'>
                     <div className='social_img'>
-                        <a href="https://codepen.io/your-profile" target="_blank" rel="noopener noreferrer">
+                        <a href="https://codepen.io/girijamohanta" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faCodepen} className='social_font_icon' />
                         </a>
                     </div>
@@ -77,7 +77,7 @@ export default function SocialPage() {
 
                 <div className='social_card'>
                     <div className='social_img'>
-                        <a href="https://stackoverflow.com/users/your-id" target="_blank" rel="noopener noreferrer">
+                        <a href="https://stackoverflow.com/users/22446539/girija-shankar-mohanta?tab=profile" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faStackOverflow} className='social_font_icon' />
                         </a>
                     </div>
